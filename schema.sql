@@ -76,3 +76,5 @@ CREATE TABLE photo_tags(
     FOREIGN KEY(tag_id) REFERENCES tags(id),
     PRIMARY KEY(photo_id,tag_id)
 );
+-- 
+
